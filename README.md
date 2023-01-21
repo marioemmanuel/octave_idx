@@ -40,7 +40,7 @@ ans =
 
 octave:5> labels(3,:)
 ans = 4
-octave:6> imageShow(images, 3)
+octave:6> showImage(images, 3)
 ```
 
 ![Image3](https://raw.githubusercontent.com/marioemmanuel/octave_idx/main/mnist_screenshot.png)
