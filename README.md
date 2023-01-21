@@ -1,7 +1,7 @@
 ## octave_idx
-Octave IDX Reader (for MNIST repository)
-(c) Abbex 2023
-www.abbex.dk
+Octave IDX Reader (for MNIST repository)<br>
+(c) Abbex 2023<br>
+www.abbex.dk<br>
 
 ### IDX READER FOR OCTAVE
 
