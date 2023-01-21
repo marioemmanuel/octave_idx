@@ -43,4 +43,4 @@ ans = 4
 octave:6> imageShow(images, 3)
 ```
 
-![Image3](https://github.com/marioemmanuel/octave_idx/mnist_screenshot.png)
+![Image3](https://raw.githubusercontent.com/marioemmanuel/octave_idx/main/mnist_screenshot.png)
