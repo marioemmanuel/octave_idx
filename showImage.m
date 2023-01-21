@@ -13,6 +13,9 @@ function showImage(imageArray, index)
     % RESHAPE TO A 2D IMAGE AND SHOW IT
     image2d = reshape(image, [imageDims(2) imageDims(3)]);
     
+    % CONVERT TO DOUBLE AND SCALE TO 0.0-1.0
+    image2d = double(image2d) / 256.0;
+
     % SHOW IT
     imshow(image2d);
     
