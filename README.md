@@ -1,5 +1,7 @@
-# octave_idx
+## octave_idx
 Octave IDX Reader (for MNIST repository)
+(c) Abbex 2023
+www.abbex.dk
 
 ### IDX READER FOR OCTAVE
 
@@ -7,19 +9,19 @@ This repository contains two Octave functions:
 1. readIDX
 2. showImage
 
-# readIDX
+### Function readIDX
 
 This functions read IDX file formats as the ones used by MNIST repository (http://yann.lecun.com/exdb/mnist/)
 To load a file just invoke readIDX(filename). The function will return an array with the specific sizes.
 Function has been tested using MNIST dataset, which stores both 3 dimensions and 1 dimension arrays for images and labels respectively.
 
-# showImage
+### Function showImage
 
 This function will display an image (2x2 matrix) stored in an array that contains indexes (as the catalog of handwritten images from MNIST dataset).
 It is invoked by passing the array where the first index is the image number and the second and third columns are the rows and columns respectively.
 The function will invoke imshow function handling the selection of the particular image by index and by the removal of that dimension so imshow uses a 2D array.
 
-# Usage example
+### Function Usage example
 
 The following Octave excertp code shows how to load and display MNIST image files.
 
